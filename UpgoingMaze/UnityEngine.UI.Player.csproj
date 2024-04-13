@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{08A6D3C7-B099-6F1D-3B27-C44347B5688C}</ProjectGuid>
+    <ProjectGuid>{B14ADE1F-0B0A-D717-5D6F-D2FCCA0C6B95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.UI</AssemblyName>

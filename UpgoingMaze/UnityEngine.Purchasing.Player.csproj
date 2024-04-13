@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9C21566C-6CA4-0BC3-4755-33E11A887F2F}</ProjectGuid>
+    <ProjectGuid>{CB4A4061-A1E8-4B6D-7DC0-44C13B592F46}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing</AssemblyName>
@@ -724,27 +724,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Purchasing.Common.Player.csproj">
-      <Project>{0908BE23-FF97-329D-0031-1E979529129B}</Project>
+      <Project>{7B1D89B3-327E-C396-2B8C-C6BADF3EBD29}</Project>
       <Name>Purchasing.Common.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{EFBFB40B-A9C7-4243-51EA-094B0F7860C1}</Project>
+      <Project>{FDE48B19-CD00-38B2-0960-2B891D353ECE}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{5E2CE65F-5710-316B-F0F0-E4BC5EAD76C4}</Project>
+      <Project>{6C8277F2-A47D-3A18-4EC1-0D38F0113EE0}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Internal.Player.csproj">
-      <Project>{3DA981C4-C32A-7A03-3E6A-D08895A99412}</Project>
+      <Project>{CDDB1093-02B3-6675-59A3-CAD34D3745BB}</Project>
       <Name>Unity.Services.Core.Internal.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Analytics.Player.csproj">
-      <Project>{F864421B-CB74-879D-6351-F0D7A9094236}</Project>
+      <Project>{348B8E13-9F2B-067F-2E5F-B98C6E4D444F}</Project>
       <Name>Unity.Services.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{08A6D3C7-B099-6F1D-3B27-C44347B5688C}</Project>
+      <Project>{B14ADE1F-0B0A-D717-5D6F-D2FCCA0C6B95}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

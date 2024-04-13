@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6322CFF6-EEC0-7B26-EE97-B62884DEE6AE}</ProjectGuid>
+    <ProjectGuid>{2E720CAC-09E8-E2F8-62DD-1E663F4662E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Monetization</AssemblyName>
@@ -688,11 +688,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Advertisements.Player.csproj">
-      <Project>{933BF3E6-B3C0-5279-676C-00F720B1F112}</Project>
+      <Project>{58BCCC2C-C9BF-B71E-970D-303229E5BCF6}</Project>
       <Name>UnityEngine.Advertisements.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{08A6D3C7-B099-6F1D-3B27-C44347B5688C}</Project>
+      <Project>{B14ADE1F-0B0A-D717-5D6F-D2FCCA0C6B95}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

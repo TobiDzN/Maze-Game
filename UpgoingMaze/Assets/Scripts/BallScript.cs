@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BallScript : MonoBehaviour
 {
@@ -20,6 +21,9 @@ public class BallScript : MonoBehaviour
     [SerializeField, Tooltip("Max height the character will jump regardless of gravity")]
     float jumpHeight = 4;
 
+    [SerializeField]
+    int Score = 0;
+
     private BoxCollider2D boxCollider;
 
     [SerializeField]private Vector2 velocity;
@@ -37,19 +41,7 @@ public class BallScript : MonoBehaviour
 
     private void Update()
     {
-        // Use GetAxisRaw to ensure our input is either 0, 1 or -1.
         float moveInput = Input.GetAxisRaw("Horizontal");
-
-        if (grounded)
-        {
-            velocity.y = 0;
-
-        }
-        if (Input.GetButtonDown("Jump"))
-        { 
-            // Calculate the velocity required to achieve the target jump height.
-            velocity.y = Mathf.Sqrt(2 * jumpHeight * Mathf.Abs(Physics2D.gravity.y));
-         }
 
         float acceleration = grounded ? walkAcceleration : airAcceleration;
         float deceleration = grounded ? groundDeceleration : 0;
@@ -63,37 +55,28 @@ public class BallScript : MonoBehaviour
             velocity.x = Mathf.MoveTowards(velocity.x, 0, deceleration * Time.deltaTime);
         }
 
-        velocity.y += Physics2D.gravity.y * Time.deltaTime;
-
         transform.Translate(velocity * Time.deltaTime);
 
         grounded = false;
 
-        // Retrieve all colliders we have intersected after velocity has been applied.
-        //Collider2D[] hits = Physics2D.OverlapBoxAll(transform.position, boxCollider.size, 0);
+    }
 
-        //foreach (Collider2D hit in hits)
-        //{
-        //    // Ignore our own collider.
-        //    if (hit == boxCollider)
-        //        continue;
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            Destroy(this.gameObject);
+        }
 
-        //    ColliderDistance2D colliderDistance = hit.Distance(boxCollider);
+        if(collision.gameObject.CompareTag("Checkpoint"))
+        {
+            Score += 1;
+        }
+    }
 
-        //    // Ensure that we are still overlapping this collider.
-        //    // The overlap may no longer exist due to another intersected collider
-        //    // pushing us out of this one.
-        //    if (colliderDistance.isOverlapped)
-        //    {
-        //        transform.Translate(colliderDistance.pointA - colliderDistance.pointB);
-
-        //        // If we intersect an object beneath us, set grounded to true. 
-        //        if (Vector2.Angle(colliderDistance.normal, Vector2.up) < 90 && velocity.y < 0)
-        //        {
-        //            grounded = true;
-        //        }
-        //    }
-        //}
+    public int getScore()
+    {
+        return Score;
     }
 
 }
