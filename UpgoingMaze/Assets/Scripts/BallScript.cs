@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class BallScript : MonoBehaviour
 {
     [SerializeField, Tooltip("Max speed, in units per second, that the character moves.")]
-    float speed = 9;
+    float speed = 7;
 
     [SerializeField, Tooltip("Acceleration while grounded.")]
     float walkAcceleration = 75;
