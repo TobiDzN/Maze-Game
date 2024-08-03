@@ -20,4 +20,15 @@ public class LevelMove : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void setSpeed(float newSpeed)
+    {
+        speed = newSpeed;
+    }
+
+    public float getSpeed()
+    {
+        return speed;
+    }
+
 }

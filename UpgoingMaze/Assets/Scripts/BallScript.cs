@@ -23,9 +23,9 @@ public class BallScript : MonoBehaviour
 
     [SerializeField]
     int Score = 0;
-
+    GameObject levelmove;
     private BoxCollider2D boxCollider;
-
+    float levelspeed;
     [SerializeField]private Vector2 velocity;
 
     /// <summary>
@@ -59,6 +59,7 @@ public class BallScript : MonoBehaviour
 
         grounded = false;
 
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -71,6 +72,14 @@ public class BallScript : MonoBehaviour
         if(collision.gameObject.CompareTag("Checkpoint"))
         {
             Score += 1;
+            if (Score % 5 == 0)
+            {
+                levelmove = collision.gameObject;
+                levelspeed = (float)levelmove.gameObject.GetComponentInParent<LevelMove>().getSpeed();
+                levelmove.GetComponentInParent<LevelMove>().setSpeed(levelspeed * 1.1f);
+                //speed only affects current level need to make it so when a level is created it gets the speed automatically
+            }
+
         }
     }
 

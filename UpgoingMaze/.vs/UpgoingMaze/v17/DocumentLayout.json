@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\UnityFinishedSmallGames\\Game #1\\Maze-Game\\UpgoingMaze\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|D:\\Projects\\UnityFinishedSmallGames\\Game #1\\Maze-Game\\UpgoingMaze\\assets\\scripts\\levelmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|d:\\projects\\unityfinishedsmallgames\\game #1\\maze-game\\upgoingmaze\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|D:\\Projects\\UnityFinishedSmallGames\\Game #1\\Maze-Game\\UpgoingMaze\\assets\\scripts\\ballscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|d:\\projects\\unityfinishedsmallgames\\game #1\\maze-game\\upgoingmaze\\assets\\scripts\\levelmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|D:\\Projects\\UnityFinishedSmallGames\\Game #1\\Maze-Game\\UpgoingMaze\\assets\\scripts\\scorescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scorescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|D:\\Projects\\UnityFinishedSmallGames\\Game #1\\Maze-Game\\UpgoingMaze\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F08DF05-6EF2-3CE8-F828-77713D0EE2BD}|Assembly-CSharp.csproj|D:\\Projects\\UnityFinishedSmallGames\\Game #1\\Maze-Game\\UpgoingMaze\\assets\\scripts\\sectiontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "D:\\Projects\\UnityFinishedSmallGames\\Game #1\\Maze-Game\\UpgoingMaze\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
@@ -42,12 +42,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwDAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T17:56:00.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T17:56:00.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ScoreScript.cs",
               "DocumentMoniker": "D:\\Projects\\UnityFinishedSmallGames\\Game #1\\Maze-Game\\UpgoingMaze\\Assets\\Scripts\\ScoreScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreScript.cs",
@@ -55,7 +54,8 @@
               "RelativeToolTip": "Assets\\Scripts\\ScoreScript.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T11:02:35.322Z"
+              "WhenOpened": "2024-04-13T11:02:35.322Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -71,28 +71,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LevelMove.cs",
               "DocumentMoniker": "D:\\Projects\\UnityFinishedSmallGames\\Game #1\\Maze-Game\\UpgoingMaze\\Assets\\Scripts\\LevelMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelMove.cs",
               "ToolTip": "D:\\Projects\\UnityFinishedSmallGames\\Game #1\\Maze-Game\\UpgoingMaze\\Assets\\Scripts\\LevelMove.cs",
               "RelativeToolTip": "Assets\\Scripts\\LevelMove.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T09:32:06.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BallScript.cs",
               "DocumentMoniker": "D:\\Projects\\UnityFinishedSmallGames\\Game #1\\Maze-Game\\UpgoingMaze\\Assets\\Scripts\\BallScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BallScript.cs",
               "ToolTip": "D:\\Projects\\UnityFinishedSmallGames\\Game #1\\Maze-Game\\UpgoingMaze\\Assets\\Scripts\\BallScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\BallScript.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAATAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowE8AAAB9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T09:31:50.447Z"
+              "WhenOpened": "2024-04-13T09:31:50.447Z",
+              "EditorCaption": ""
             }
           ]
         }
