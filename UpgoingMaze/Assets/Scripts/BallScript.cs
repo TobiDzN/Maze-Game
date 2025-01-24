@@ -26,7 +26,14 @@ public class BallScript : MonoBehaviour
     GameObject levelmove;
     private BoxCollider2D boxCollider;
     float levelspeed;
-    [SerializeField]private Vector2 velocity;
+    [SerializeField]
+    private Vector2 velocity;
+    [SerializeField]
+    PauseMenu pauseui;
+    [SerializeField]
+    GameObject firstlevel;
+
+    public GameObject[] walls;
 
     /// <summary>
     /// Set to true when the character intersects a collider beneath
@@ -62,11 +69,27 @@ public class BallScript : MonoBehaviour
         
     }
 
+    public void Restart()
+    {
+        this.gameObject.transform.position = new Vector3(0f, 0f, 0f);
+        Score = 0;
+        velocity.x = 0f;
+        this.gameObject.SetActive(true);
+        walls = GameObject.FindGameObjectsWithTag("Wall");
+        foreach (GameObject wall in walls)
+        {
+            Destroy(wall);
+        }
+        Instantiate(firstlevel, new Vector3(0f, -0.48f, 0f), Quaternion.identity);
+        pauseui.Resume();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Wall"))
         {
-            Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
+            pauseui.Pause();
         }
 
         if(collision.gameObject.CompareTag("Checkpoint"))

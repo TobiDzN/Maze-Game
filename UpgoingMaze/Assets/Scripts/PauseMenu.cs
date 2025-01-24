@@ -9,6 +9,9 @@ public class PauseMenu : MonoBehaviour
     
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
+
+    [SerializeField]
+    BallScript ball;
     // Update is called once per frame
     void Update()
     {
@@ -32,11 +35,16 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = false;
     }
 
-    void Pause()
+    public void Pause()
     {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;    
+    }
+
+    public void RestartMenu()
+    {
+        ball.Restart();
     }
 
     public void LoadMenu()

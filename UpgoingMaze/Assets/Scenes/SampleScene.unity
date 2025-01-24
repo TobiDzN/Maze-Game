@@ -1256,7 +1256,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681184047}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1284,6 +1284,9 @@ MonoBehaviour:
   jumpHeight: 4
   Score: 0
   velocity: {x: 0, y: 0}
+  pauseui: {fileID: 1658767946}
+  firstlevel: {fileID: 3304941217523646673, guid: ff42d00d5b08f18499bd2eeed78aa284, type: 3}
+  walls: []
   grounded: 0
 --- !u!61 &681184052
 BoxCollider2D:
@@ -1924,7 +1927,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Options
+  m_text: Restart
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2045,7 +2048,7 @@ GameObject:
   - component: {fileID: 1548914059}
   - component: {fileID: 1548914058}
   m_Layer: 0
-  m_Name: Options
+  m_Name: Restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2118,7 +2121,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1658767946}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: LoadMenu
+        m_MethodName: RestartMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2281,6 +2284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 99759925}
+  ball: {fileID: 681184051}
 --- !u!1 &1707598210
 GameObject:
   m_ObjectHideFlags: 0
