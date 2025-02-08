@@ -344,6 +344,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Scripts/BallScript.cs"
+"Assets/Scripts/InstructionsScript.cs"
 "Assets/Scripts/LevelMove.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/ScoreScript.cs"

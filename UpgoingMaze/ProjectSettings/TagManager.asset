@@ -8,6 +8,9 @@ TagManager:
   - Destroy
   - Wall
   - Checkpoint
+  - TeleporterR
+  - TeleporterL
+  - Border
   layers:
   - Default
   - TransparentFX

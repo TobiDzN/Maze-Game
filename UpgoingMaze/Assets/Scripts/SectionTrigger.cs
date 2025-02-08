@@ -13,6 +13,7 @@ public class SectionTrigger : MonoBehaviour
         {
             System.Random rnd = new System.Random();
             Instantiate(roadSections[rnd.Next(roadSections.Length)],new Vector3(0f, 15.9f, 0f), Quaternion.identity);
+            collision.gameObject.SetActive(false);
         }
     }
 }
